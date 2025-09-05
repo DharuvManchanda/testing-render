@@ -17,6 +17,9 @@ importers:
       '@godspeedsystems/plugins-express-as-http':
         specifier: ^1.0.33
         version: 1.0.33(debug@4.4.1)(prom-client@13.2.0)
+      '@google/generative-ai':
+        specifier: ^0.24.1
+        version: 0.24.1
       '@prisma/client':
         specifier: ^6.8.2
         version: 6.15.0(prisma@6.15.0(typescript@5.9.2))(typescript@5.9.2)
@@ -96,6 +99,10 @@ packages:
 
   '@godspeedsystems/plugins-express-as-http@1.0.33':
     resolution: {integrity: sha512-50ldkJkIrtYqgdWhS83kMkGvOPem4/a6FrEk6trMqcLlyb4tf5PI6DavxdQCn0m+G5MVpLKtYBsOnXtqPxj4ng==}
+
+  '@google/generative-ai@0.24.1':
+    resolution: {integrity: sha512-MqO+MLfM6kjxcKoy0p1wRzG3b4ZZXtPI+z2IE26UogS2Cm/XHO+7gGRBh6gcJsOiIVoH93UwKvW4HdgiOZCy9Q==}
+    engines: {node: '>=18.0.0'}
 
   '@jridgewell/resolve-uri@3.1.2':
     resolution: {integrity: sha512-bRISgCIjP20/tbWSPWMEi54QVPRZExkuD9lJL+UIxUKtwVJA8wW1Trb1jMs1RFXo1CBTNZ/5hpC9QvmKWdopKw==}
@@ -2029,6 +2036,8 @@ snapshots:
       - debug
       - prom-client
       - supports-color
+
+  '@google/generative-ai@0.24.1': {}
 
   '@jridgewell/resolve-uri@3.1.2': {}
 

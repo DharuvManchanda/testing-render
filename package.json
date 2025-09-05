@@ -40,6 +40,7 @@
 		"@godspeedsystems/core": "^2.5.5",
 		"@godspeedsystems/plugins-axios-as-datasource": "^1.0.6",
 		"@godspeedsystems/plugins-express-as-http": "^1.0.33",
+		"@google/generative-ai": "^0.24.1",
 		"@prisma/client": "^6.8.2",
 		"config": "^4.0.0",
 		"dotenv": "^16.5.0",
